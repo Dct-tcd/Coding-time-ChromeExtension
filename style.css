@@ -1,0 +1,280 @@
+body
+{
+background-image: url("https://wallpapercave.com/wp/wp2742495.jpg");
+    font-size:14px;
+    text-align: center;
+    /* background-color:#f8f9fa;
+    background-color:#ccccff; */
+}
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: mediumseagreen; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+} */
+
+td:nth-child(1) {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.nope{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* color: white; */
+  text-align: center;
+    /* background: #1abc9c; */
+    /* color: white; */
+    /* font-size: 30px; */
+  overflow: auto;
+ background-color: #282A35;
+ }
+#Dev{
+  position: sticky;
+  margin-left: 2%;
+  float: left;
+  color:#f1f1f1;
+  font-family: BlinkMac System Font,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+#iop{
+  position: sticky;
+  margin-right: 13%;
+  float: right; 
+  color:#f1f1f1;;
+  font-family: BlinkMac System Font,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+#img{
+  position: sticky;
+  float: right;
+  top: 20%;
+  left: 89%; 
+}
+.foot {
+  
+  background-color:green;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+/* .nope {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+} */
+tbody{
+    overflow-x: scroll;
+    margin-left: 1%;
+    margin-right: 1%;
+ 
+}
+ table
+    {
+      /* border-style:ridge; */
+      /* display: flex;
+      justify-content: center; */
+      
+      /* border-radius: 10%; */
+      border-color:#fff!important;
+      vertical-align: middle;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 4%;
+      padding: 5%;
+      /* width:min-content; */
+      overflow-x:scroll;
+      /* overflow-y:auto;        */
+   
+     
+      /* scrollbar-width: auto; */
+      /* max-height:400px; */
+      /* table-layout: scroll-behavior;    */
+                /* display: inline-block;
+                display: -moz-inline-box;
+      
+      table-layout: scroll-behavior;    */
+     
+      
+    }
+    
+    .new
+    {
+      display: flex;
+      justify-content: center;
+    
+      /* float: left; */
+     }
+    /* .new1
+    {
+      float: right;
+     } */
+     /* .tabover
+     {
+      display: flex;
+    justify-content: center;
+     } */
+     /* .opop{
+      margin-right:3%; */
+      /* padding:10px 80px 10px 80px ; */
+      /* Color:#007bff;
+      border-style:inset; */
+     /* left:25%; */
+     /* display:inline-block;
+     position:responsive; */
+     /* left:25%; */
+/*      
+     font-size:30px;
+     
+     border-radius:20px;
+     } */
+     /* .opop1{ */
+      /* margin-left:10px; */
+      /* border-radius:20px;
+      border-style:outset;
+      Color:#007bff;
+      padding:5% 8% 5% 8% ;
+     
+      display:inline-block;
+      position:responsive;
+      right:25%; 
+      font-size:10%;
+  } */
+   figcaption {
+    display:flex;
+    position:vertical-align;
+      font-weight: bold;
+      font-size: 24px;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #B2EBF2;
+    }
+    
+    tr:nth-child(odd) {
+    background-color:#E7E9EB;
+
+    }
+    tr:nth-child(1) {
+      background-color:khaki;
+    }
+    
+    tr:hover {
+      background-color:whitesmoke;
+      }
+    table, th, td{
+      /* border-bottom: 1px solid #ddd; */
+      font-family: verdana,arial,sans-serif;
+      /* margin: 4px;             */
+   		padding: 10px;
+  		border-spacing: 15px;
+      align-items: center;
+      border-collapse:collapse;
+      /* overflow-y:auto;        */
+   
+      /* table-layout: scroll-behavior;    */
+  }
+        .topnav {
+            position:responsive;
+            display: inline-block;
+            padding: 8px 8px 6px 8px;
+            height: fit-content;
+            /* width: fit-content; */
+            margin-top:4%; 
+            white-space: nowrap;
+            background-color: #26C6DA;
+            overflow-x:auto;
+            overflow-y:auto;   
+            border-radius: 2%;    
+            /* margin-left: 1%;
+            margin-right: 1%;
+          */
+            /* scroll-behavior: auto; */
+            }
+          
+          .topnav a {
+            color:#007bff;
+            /* white-space: nowrap;     */
+            border-radius: 3%;    
+            
+            align-items: center;
+                display: inline-block;
+                display: -moz-inline-box;
+                /* *display: inline;  */
+                /* zoom: 1;  */
+                width:fit-content;
+                /* width: 10%; */
+                text-align: center;
+                color: #f2f2f2;
+                padding: 15px 15px; 
+                text-decoration: none;
+                font-size: 17px; 
+                /* overflow: hidden; */
+                overflow-x:auto;
+                overflow-y:auto;       
+              
+              }
+          
+          .topnav a:hover {
+            background-color: #ddd;
+            cursor: pointer;
+            color: black;
+          }
+          
+          .topnav .icon {
+            display: none;
+            /* cursor: pointer; */
+          }
+          @media screen and (max-width: 1200px) {
+             #img{
+         
+              display: none;
+               }
+            #iop{
+              display: none;
+              /* visibility: hidden; */
+            }
+            .topnav{
+              /* display: none; */
+              display:block;
+            
+            }
+            table{
+             width: screen;
+              overflow-x:visible;
+             /* overflow-y:auto;
+             /* margin-right: 5%; */
+            }
+            table th td {
+              display: block;
+              /* width: max-content; */
+              /* padding:1%; */
+              /* border-collapse: collapse; */
+            }
+            .nope{
+              width:screen
+            }
+          }

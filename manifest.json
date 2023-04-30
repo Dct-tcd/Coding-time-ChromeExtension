@@ -1,0 +1,11 @@
+{
+    "name": "Coding Time",
+    "version": "1.0.0",
+    "description": "Set reminders for your Coding contests",
+    "manifest_version": 3,
+    "author": "Dev chaitanya tiwari",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Never Miss Your Contest Again"
+    }
+}
